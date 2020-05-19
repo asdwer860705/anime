@@ -1,0 +1,179 @@
+body {
+    background-image: url("https://i.imgur.com/7ClHvBG.jpg");
+    background-size:100% 100%;
+    background-origin:inherit;
+}
+
+#intro .jumbotron {
+    height: 40vh;
+    background-image: url("https://i.imgur.com/q3p4D7b.gif");
+    background-size: 100% 100%;
+    background-origin: border-box;
+    margin: 0px;
+}
+
+
+
+header{
+    background-color: #00B4D8;
+
+}
+
+
+
+#intro h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #f2f6ff
+}
+
+#intro .btn{
+    background: skyblue;
+    color: floralwhite;
+    font-weight: 500;
+    padding: 7px 27px;
+    border-radius: 28px;
+}
+    #intro .btn:hover {
+        color: #233873;
+        font-weight:800;
+        font-size: 1.1rem;
+    }
+
+ #intro .container {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+header li{
+    margin: 0 10px;
+}
+
+#second h3{
+  
+    font-weight: 600;
+    font-size: 20px;
+}
+
+header li{
+    margin: 0 10px;
+}
+
+#second {
+    padding: 40px 0px;
+    padding-bottom: 65px;
+    background-color: #c9f3fff7;
+}
+
+#second h3{
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+#third {
+    padding: 40px 0px;
+    background-color: #eaf4fff7;
+}
+
+#third h3{
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+img {max-width: 100%;
+
+}
+
+#third .innertext{
+    padding-top: 10px;
+    position: absolute;
+    background-color: #2629296b;
+    width: 100%;
+    bottom: 0;
+    left: 0px;
+}
+#third .upper {
+    position: relative;
+}
+
+#third h4{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #56e8ff;
+}
+
+#third span{
+
+    padding-left: 10px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+#third img{
+    width:100%;
+
+}
+
+#third .col-md-3{
+    padding-bottom: 50px;
+}
+
+#third .outer{
+    BOX-SHADOW: 0 0 8PX 0 rgba(0,0,0,0.8);
+}
+
+
+#second .innertext {
+    padding-top: 10px;
+    position: absolute;
+    background-color: #2629296b;
+    width: 100%;
+    bottom: 0;
+    left: 0px;
+}
+.running {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #f8feffe3;
+    width:100%;
+    height:100%;
+}
+
+#second .upper {
+    position: relative;
+}
+
+#second h4 {
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #56e8ff;
+}
+
+#second span {
+    padding-left: 10px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+#second .col-md-6 {
+    margin-bottom:20px;
+}
+
+#second img {
+    position:center;
+    width:100%;
+}
+
+#second .outer{
+    BOX-SHADOW: 0 0 8PX 0 rgba(0,0,0,0.8);
+}
+
+footer span {
+    color:white;
+}
