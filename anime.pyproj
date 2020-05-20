@@ -45,6 +45,7 @@
     <Folder Include="anime\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="README.md" />
     <Content Include="anime\static\content\style.css" />
     <Content Include="anime\static\image\starburst.jpg" />
     <Content Include="anime\static\image\starburst2.gif" />
