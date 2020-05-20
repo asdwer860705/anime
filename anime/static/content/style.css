@@ -14,9 +14,12 @@ body {
 
 
 
-header{
+header {
     background-color: #00B4D8;
-
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width:100%;
 }
 
 
@@ -103,8 +106,14 @@ img {max-width: 100%;
     padding-left: 10px;
     font-size: 1.2rem;
     font-weight: 800;
+
+}
+#third a {
     color: #56e8ff;
 }
+    #third a:hover {
+        color: #e4e8c4;
+    }
 
 #third span{
 
@@ -123,7 +132,10 @@ img {max-width: 100%;
 }
 
 #third .outer{
-    BOX-SHADOW: 0 0 8PX 0 rgba(0,0,0,0.8);
+    BOX-SHADOW: 0 0 8PX 0 rgba(0,0,0,0.65);
+}
+#third .outer:hover {
+    BOX-SHADOW: 0 0 8PX 0 rgba(0,0,0,1);
 }
 
 
@@ -148,12 +160,21 @@ img {max-width: 100%;
     position: relative;
 }
 
-#second h4 {
+#second h4{
     padding-left: 10px;
     font-size: 1.2rem;
     font-weight: 800;
+
+}
+
+#second a {
     color: #56e8ff;
 }
+    #second a:hover {
+        color: #e4e8c4;
+    }
+
+
 
 #second span {
     padding-left: 10px;
@@ -171,9 +192,33 @@ img {max-width: 100%;
 }
 
 #second .outer{
-    BOX-SHADOW: 0 0 8PX 0 rgba(0,0,0,0.8);
+    BOX-SHADOW: 0 0 8PX 0 rgba(0,0,0,0.65);
+}
+#second .outer:hover {
+    BOX-SHADOW: 0 0 8PX 0 rgba(0,0,0,1);
 }
 
 footer span {
     color:white;
 }
+
+#totop #btn3 {
+    position: fixed; /*©T©w¦ì¸m*/
+    bottom: 10%;
+    right: 2%;
+    z-index: 9999;
+    color: aliceblue;
+    background-color: #00B4D8;
+    width: 80px;
+    border-radius: 38px;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 0 0 3PX 0 rgba(0,0,0,0.5);
+}
+    #totop #btn3:hover {
+        font-weight: 800;
+        color: #ffffff;
+        box-shadow: 0 0 3PX 0 rgba(0,0,0,0.7);
+        width:85px;
+        right:2%+3px;
+    }

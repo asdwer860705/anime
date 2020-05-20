@@ -39,6 +39,26 @@
                 }
             });
         });
+
+        //錨點動畫
+        $(function () {
+            $('#btn1').click(function () {
+                $('html,body').animate({ scrollTop: $('#second').offset().top }, "show");
+                return false;
+            });
+        });
+        $(function () {
+            $('#btn2').click(function () {
+                $('html,body').animate({ scrollTop: $('#second').offset().top }, "show");
+                return false;
+            });
+        });
+        $(function () {
+            $('#btn3').click(function () {
+                $('html,body').animate({ scrollTop: $('#intro').offset().top }, "show");
+                return false;
+            });
+        });
     </script>
    
     <title>動畫瘋自動推播</title>
@@ -46,7 +66,7 @@
 </head>
 <body >
     <header>
-        <div class="container">
+        <div class="container" >
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#" style="color: white;font-weight: 800;">卡通瘋</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +78,7 @@
                             <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#second">推薦動畫</a>
+                            <a class="nav-link" href="#"id="btn1">推薦動畫</a>
                             
                         </li>
                         <li class="nav-item">
@@ -77,7 +97,7 @@
                         <div class='row'>
                             <div class="col-md-12">
                                 <h1>動畫瘋上架更新提醒</h1>
-                                <a class="btn" href="#second">推薦動畫</a>
+                                <a class="btn" href="#second" id="btn2">推薦動畫</a>
                             </div>
                         </div>
                  </div>
@@ -283,7 +303,9 @@
                 </div>
     </section>
 
-
+        <div id="totop">
+                <a class="btn" href="#" id="btn3">↑top</a>
+        </div>
 
         <footer style="background-color: #00B4D8;">
             <div class='container'>
@@ -294,7 +316,8 @@
                 </div>
             </div>
         </footer>
-
+            
+        
     </body>
 
     </html>
