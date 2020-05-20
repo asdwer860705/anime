@@ -23,17 +23,18 @@ def newani(n,m):
         soup=source.find_all(class_="newanime__content__cover")
         src = str(soup[n])
         src = src.split('"')[5]
-
-        if(day[0]==str(datetime.now().day)):
-               result = str("<span>"+date+vol+"</span>"+"<h4>"+title+"</h4>")
-               srcresult=src
-        else:
-             srcresult = "https://i.imgur.com/2FYaJGi.jpg"
+        result = str("<span>"+date+vol+"</span>"+"<h4>"+title+"</h4>")
+        #if(day[0]==str(datetime.now().day)):
+              # result = str("<span>"+date+vol+"</span>"+"<h4>"+title+"</h4>")
+               #srcresult=src
+        #else:
+             #srcresult = "https://i.imgur.com/2FYaJGi.jpg"
      
         if(m==0):    
              return result
         else:
-             return srcresult
+             #return srcresult
+             return src
        
     except :
         return "本日無更新"

@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup as bs
 from anime.main import newani
 from flask import jsonify
 
+
 @app.route('/')
 @app.route('/home')
 def home():
