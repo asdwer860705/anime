@@ -7,7 +7,7 @@
     <ProjectGuid>34cf49df-7a19-4777-9b02-dff0015c8d2e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>runserver.py</StartupFile>
+    <StartupFile>application.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,7 +31,7 @@
     <Compile Include="anime\main.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="runserver.py" />
+    <Compile Include="application.py" />
     <Compile Include="anime\__init__.py" />
     <Compile Include="anime\views.py" />
   </ItemGroup>
@@ -45,6 +45,7 @@
     <Folder Include="anime\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="drcowani - Web Deploy.pubxml" />
     <Content Include="README.md" />
     <Content Include="anime\static\content\style.css" />
     <Content Include="anime\static\image\starburst.jpg" />
