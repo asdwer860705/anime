@@ -22,10 +22,10 @@ def home():
     )
 @app.route('/new')
 def new():
-    return jsonify(result0=newani(0,0),img0=newani(0,1),
-                              result1=newani(1,0),img1=newani(1,1),
-                              result2=newani(2,0),img2=newani(2,1),
-                              result3=newani(3,0),img3=newani(3,1))
+    return jsonify(result0=newani(0,0),img0=newani(0,1),href0=newani(0,2),
+                              result1=newani(1,0),img1=newani(1,1),href1=newani(1,2),
+                              result2=newani(2,0),img2=newani(2,1),href2=newani(2,2),
+                              result3=newani(3,0),img3=newani(3,1),href3=newani(3,2))
 
 
 @app.route('/contact')

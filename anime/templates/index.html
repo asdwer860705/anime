@@ -23,12 +23,16 @@
                 success: function (Jdata) {
                     $('#new0').html(Jdata.result0)
                     $('#img0').attr("src", Jdata.img0)
+                    $('#href0').attr("href", Jdata.href0)
                     $('#new1').html(Jdata.result1)
                     $('#img1').attr("src", Jdata.img1)
+                    $('#href1').attr("href", Jdata.href1)
                     $('#new2').html(Jdata.result2)
                     $('#img2').attr("src", Jdata.img2)
+                    $('#href2').attr("href", Jdata.href2)
                     $('#new3').html(Jdata.result3)
                     $('#img3').attr("src", Jdata.img3)
+                    $('#href3').attr("href", Jdata.href3)
                     $('.running').attr('style', 'display: none; ')
 
                 },
@@ -95,8 +99,8 @@
             </div>
             <div class='row'>
                 <div class='col-md-3'>
-                    <div class='outer'>
-                        <a href='#'>
+                    <div class='outer' >
+                        <a  id="href0" >
                             <div class='upper' >
                                 <img src='https://i.imgur.com/2FYaJGi.jpg' id="img0">
                                     <div class="running">
@@ -118,18 +122,18 @@
                 </div>
                 <div class='col-md-3'>
                     <div class='outer'>
-                        <a href='#'>
+                        <a id="href1">
                             <div class='upper'>
                                 <img src='https://i.imgur.com/2FYaJGi.jpg' id="img1">
-                                    <div class="running">
-                                        <div class="spinner-border" role="status" style="position: absolute;top:40%;left:45%;">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
+                                <div class="running">
+                                    <div class="spinner-border" role="status" style="position: absolute;top:40%;left:45%;">
+                                        <span class="sr-only">Loading...</span>
                                     </div>
-                                    <div class='innertext' id="new1">
-                                        <span>幫我稱十秒</span>
-                                        <h4>載入中...</h4>
-                                    </div>
+                                </div>
+                                <div class='innertext' id="new1">
+                                    <span>幫我稱十秒</span>
+                                    <h4>載入中...</h4>
+                                </div>
                             </div>
                             <div class='lower'>
 
@@ -139,18 +143,18 @@
                 </div>
                 <div class='col-md-3'>
                     <div class='outer'>
-                        <a href='#'>
+                        <a id="href2">
                             <div class='upper'>
                                 <img src='https://i.imgur.com/2FYaJGi.jpg' id="img2">
-                                    <div class="running">
-                                        <div class="spinner-border" role="status" style="position: absolute;top:40%;left:45%;">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
+                                <div class="running">
+                                    <div class="spinner-border" role="status" style="position: absolute;top:40%;left:45%;">
+                                        <span class="sr-only">Loading...</span>
                                     </div>
-                                    <div class='innertext' id="new2">
-                                        <span>幫我稱十秒</span>
-                                        <h4>載入中...</h4>
-                                    </div>
+                                </div>
+                                <div class='innertext' id="new2">
+                                    <span>幫我稱十秒</span>
+                                    <h4>載入中...</h4>
+                                </div>
                             </div>
                             <div class='lower'>
 
@@ -160,18 +164,18 @@
                 </div>
                 <div class='col-md-3'>
                     <div class='outer'>
-                        <a href='#'>
+                        <a id="href3">
                             <div class='upper'>
                                 <img src='https://i.imgur.com/2FYaJGi.jpg' id="img3">
-                                    <div class="running">
-                                        <div class="spinner-border" role="status" style="position: absolute;top:40%;left:45%;">
-                                            <span class="sr-only">Loading...</span>
-                                        </div>
+                                <div class="running">
+                                    <div class="spinner-border" role="status" style="position: absolute;top:40%;left:45%;">
+                                        <span class="sr-only">Loading...</span>
                                     </div>
-                                    <div class='innertext' id="new3">
-                                        <span>幫我稱十秒</span>
-                                        <h4>載入中...</h4>
-                                    </div>
+                                </div>
+                                <div class='innertext' id="new3">
+                                    <span>幫我稱十秒</span>
+                                    <h4>載入中...</h4>
+                                </div>
                             </div>
                             <div class='lower'>
 
